@@ -438,7 +438,7 @@ html{
   --p: 0 0% 9%;
   --pf: 0 0% 2%;
   --sf: 140 61% 14%;
-  --af: 0 0% 0%;
+  --af: 108 100% 20%;
   --nf: 0 0% 0%;
   --b2: 0 0% 93%;
   --b3: 0 0% 86%;
@@ -449,7 +449,7 @@ html{
   --bc: 146 0% 19%;
   --pc: 145 0% 80%;
   --sc: 128 15% 84%;
-  --ac: 145 0% 78%;
+  --ac: 102 35% 86%;
   --nc: 145 0% 78%;
   --inc: 198 100% 12%;
   --suc: 158 100% 10%;
@@ -466,7 +466,7 @@ html{
   --tab-border: 1px;
   --tab-radius: 0.5rem;
   --s: 140 61% 21%;
-  tertiary: #1B8900;
+  --a: 108 100% 27%;
   light: #F7F7F7;
   --b1: 0 0% 100%;
 }
@@ -475,7 +475,7 @@ html{
   --p: 0 0% 9%;
   --pf: 0 0% 2%;
   --sf: 140 61% 14%;
-  --af: 0 0% 0%;
+  --af: 108 100% 20%;
   --nf: 0 0% 0%;
   --b2: 0 0% 93%;
   --b3: 0 0% 86%;
@@ -486,7 +486,7 @@ html{
   --bc: 146 0% 19%;
   --pc: 145 0% 80%;
   --sc: 128 15% 84%;
-  --ac: 145 0% 78%;
+  --ac: 102 35% 86%;
   --nc: 145 0% 78%;
   --inc: 198 100% 12%;
   --suc: 158 100% 10%;
@@ -503,7 +503,7 @@ html{
   --tab-border: 1px;
   --tab-radius: 0.5rem;
   --s: 140 61% 21%;
-  tertiary: #1B8900;
+  --a: 108 100% 27%;
   light: #F7F7F7;
   --b1: 0 0% 100%;
 }
@@ -7668,6 +7668,10 @@ details.collapse summary::-webkit-details-marker{
   isolation: auto;
 }
 
+.z-\[1\]{
+  z-index: 1;
+}
+
 .float-right{
   float: right;
 }
@@ -7696,8 +7700,17 @@ details.collapse summary::-webkit-details-marker{
   clear: none;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .box-border{
@@ -7799,12 +7812,44 @@ details.collapse summary::-webkit-details-marker{
   display: none;
 }
 
+.h-5{
+  height: 1.25rem;
+}
+
+.h-1\/5{
+  height: 20%;
+}
+
+.h-4\/5{
+  height: 80%;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.h-full{
+  height: 100%;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
 
+.w-5{
+  width: 1.25rem;
+}
+
+.w-52{
+  width: 13rem;
+}
+
 .w-screen{
   width: 100vw;
+}
+
+.w-3\/4{
+  width: 75%;
 }
 
 .flex-shrink{
@@ -8319,6 +8364,19 @@ details.collapse summary::-webkit-details-marker{
   justify-items: stretch;
 }
 
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.gap-y-2{
+  row-gap: 0.5rem;
+}
+
+.gap-y-5{
+  row-gap: 1.25rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -8743,9 +8801,19 @@ details.collapse summary::-webkit-details-marker{
   border-style: none;
 }
 
+.border-cyan-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(103 232 249 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-base-100{
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
 .decoration-slice{
@@ -8858,6 +8926,20 @@ details.collapse summary::-webkit-details-marker{
      object-fit: scale-down;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -8912,6 +8994,36 @@ details.collapse summary::-webkit-details-marker{
 
 .align-super{
   vertical-align: super;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -8993,6 +9105,16 @@ details.collapse summary::-webkit-details-marker{
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-secondary{
+  --tw-text-opacity: 1;
+  color: hsl(var(--s) / var(--tw-text-opacity));
+}
+
+.text-base-100{
+  --tw-text-opacity: 1;
+  color: hsl(var(--b1) / var(--tw-text-opacity));
 }
 
 .underline{
@@ -9318,6 +9440,11 @@ details.collapse summary::-webkit-details-marker{
   font-family: 'Poppins', sans-serif;
 }
 
+.navlink-active{
+  --tw-text-opacity: 1;
+  color: rgb(27 137 0 / var(--tw-text-opacity));
+}
+
 @media (hover:hover){
   .table .hover\:hover:hovertr:hover,
   .table .hover\:hover:hovertr:nth-child(even):hover{
@@ -9435,6 +9562,16 @@ details.collapse summary::-webkit-details-marker{
 @media (min-width: 640px){
   .sm\:underline{
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
   }
 }
 

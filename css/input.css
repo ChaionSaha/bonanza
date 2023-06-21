@@ -9,3 +9,7 @@
 *::after {
 	font-family: 'Poppins', sans-serif;
 }
+
+.navlink-active {
+	@apply text-[#1B8900];
+}

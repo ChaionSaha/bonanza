@@ -8,10 +8,83 @@
 	</head>
 	<body>
 		<div
-			class="min-h-screen w-screen"
+			class="h-screen w-screen"
 			style="background: url('./img/herobg.png'); background-size: cover"
 		>
-			<div class="container mx-auto flex flex-col"></div>
+			<div class="container mx-auto h-full flex flex-col">
+				<!-- Navbar -->
+				<div class="navbar py-5">
+					<div class="navbar-start">
+						<div class="dropdown">
+							<label tabindex="0" class="btn btn-ghost lg:hidden">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-5 w-5"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h8m-8 6h16"
+									/>
+								</svg>
+							</label>
+							<ul
+								tabindex="0"
+								class="menu menu-lg font-bold text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+							>
+								<li class="navlink-active"><a href="./index.html">Home</a></li>
+								<li>
+									<a>About Us</a>
+								</li>
+								<li><a>Our Product</a></li>
+								<li><a>Our Team</a></li>
+								<li><a>Contact</a></li>
+								<li><a>Enquiry</a></li>
+							</ul>
+						</div>
+						<a class="normal-case text-xl"
+							><img src="./img/logo.png" alt=""
+						/></a>
+					</div>
+					<div class="navbar-center hidden lg:flex">
+						<ul class="menu menu-horizontal px-1 font-bold text-lg gap-x-5">
+							<li class="navlink-active"><a href="./index.html">Home</a></li>
+							<li>
+								<a>About Us</a>
+							</li>
+							<li><a>Our Product</a></li>
+							<li><a>Our Team</a></li>
+							<li><a>Contact</a></li>
+							<li><a>Enquiry</a></li>
+						</ul>
+					</div>
+					<div class="navbar-end lg:flex flex-col items-center hidden">
+						<p>WhatsApp for any question</p>
+						<p class="text-secondary font-bold text-2xl">+8801750613481</p>
+					</div>
+				</div>
+
+				<!-- home hero section -->
+				<div
+					class="flex-grow flex flex-col justify-center items-center self-center pt-[-100px]"
+				>
+					<div
+						class="flex flex-col items-center gap-y-5"
+						style="transform: translateY(-30%)"
+					>
+						<h1 class="text-8xl font-bold text-secondary">
+							Leading Jute Producer
+						</h1>
+						<p class="text-6xl text-base-100 font-bold text-center w-3/4">
+							Committed To Excellence And Sustainability
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
