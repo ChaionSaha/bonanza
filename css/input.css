@@ -50,3 +50,12 @@
 		}
 	}
 }
+
+.client {
+	@apply border-primary;
+	&:hover {
+		& .client-name {
+			@apply border-accent;
+		}
+	}
+}
