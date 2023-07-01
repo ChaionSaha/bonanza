@@ -7743,6 +7743,10 @@ details.collapse summary::-webkit-details-marker{
   margin-bottom: 5rem;
 }
 
+.mb-40{
+  margin-bottom: 10rem;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -7773,10 +7777,6 @@ details.collapse summary::-webkit-details-marker{
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mb-40{
-  margin-bottom: 10rem;
 }
 
 .box-border{
@@ -7949,6 +7949,10 @@ details.collapse summary::-webkit-details-marker{
 
 .w-52{
   width: 13rem;
+}
+
+.w-\[20\%\]{
+  width: 20%;
 }
 
 .w-\[40\%\]{
@@ -8566,6 +8570,11 @@ details.collapse summary::-webkit-details-marker{
        column-gap: 0.75rem;
 }
 
+.gap-x-36{
+  -moz-column-gap: 9rem;
+       column-gap: 9rem;
+}
+
 .gap-x-40{
   -moz-column-gap: 10rem;
        column-gap: 10rem;
@@ -8619,11 +8628,6 @@ details.collapse summary::-webkit-details-marker{
 
 .gap-y-7{
   row-gap: 1.75rem;
-}
-
-.gap-x-36{
-  -moz-column-gap: 9rem;
-       column-gap: 9rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -9261,10 +9265,6 @@ details.collapse summary::-webkit-details-marker{
 .object-scale-down{
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}
-
-.p-10{
-  padding: 2.5rem;
 }
 
 .p-16{
@@ -10003,6 +10003,20 @@ details.collapse summary::-webkit-details-marker{
 .container{
   margin-left: auto;
   margin-right: auto;
+}
+
+.product-sidebar-link {
+  background: linear-gradient(to left, #fdfdfd, #c4feb6, #aeff9a);
+}
+
+.product-sidebar-link-active{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #1B8900 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(27 137 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #65A184 var(--tw-gradient-to-position);
 }
 
 @media (hover:hover){

@@ -67,3 +67,11 @@
 .container {
 	@apply mx-auto;
 }
+
+.product-sidebar-link {
+	background: linear-gradient(to left, #fdfdfd, #c4feb6, #aeff9a);
+}
+
+.product-sidebar-link-active {
+	@apply text-white bg-gradient;
+}

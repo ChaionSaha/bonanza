@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/output.css" />
+		<title>Bonanza</title>
+	</head>
+	<body>
+		<div class="container flex flex-col h-full mx-auto">
+			<!-- Navbar -->
+			<div class="py-5 navbar">
+				<div class="navbar-start">
+					<div class="dropdown">
+						<label tabindex="0" class="btn btn-ghost lg:hidden">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="w-5 h-5"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h8m-8 6h16"
+								/>
+							</svg>
+						</label>
+						<ul
+							tabindex="0"
+							class="menu menu-lg font-bold text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+						>
+							<li>
+								<a href="./index.html">Home</a>
+							</li>
+							<li>
+								<a href="./aboutUs.html">About Us</a>
+							</li>
+							<li class="navlink-active">
+								<a href="./ourProduct.html">Our Product</a>
+							</li>
+							<li><a href="./ourTeam.html">Our Team</a></li>
+							<li><a>Contact</a></li>
+							<li><a>Enquiry</a></li>
+						</ul>
+					</div>
+					<a class="text-xl normal-case"
+						><img src="./img/logo.png" alt=""
+					/></a>
+				</div>
+				<div class="hidden navbar-center lg:flex">
+					<ul
+						class="px-1 text-lg font-bold menu menu-horizontal gap-x-5"
+					>
+						<li>
+							<a href="./index.html">Home</a>
+						</li>
+						<li>
+							<a href="./aboutUs.html">About Us</a>
+						</li>
+						<li class="navlink-active">
+							<a href="./ourProduct.html">Our Product</a>
+						</li>
+						<li><a href="./ourTeam.html">Our Team</a></li>
+						<li><a>Contact</a></li>
+						<li><a>Enquiry</a></li>
+					</ul>
+				</div>
+				<div class="flex-col items-center hidden navbar-end lg:flex">
+					<p>WhatsApp for any question</p>
+					<p class="text-2xl font-bold text-secondary">
+						+8801750613481
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Hero section -->
+		<div
+			class="h-[35vh]"
+			style="background: url('./img/ourProductHeroBg.png')"
+		>
+			<div
+				class="container flex flex-col items-center justify-center h-full mx-auto text-white gap-y-5"
+			>
+				<h2 class="text-5xl font-bold">Our Product</h2>
+				<div class="text-sm breadcrumbs">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li class="font-medium">Our Product</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Product section -->
+		<div class="container flex min-h-screen mt-20 gap-x-20">
+			<div class="flex flex-col gap-y-7 w-[20%]">
+				<p class="text-xl font-bold">Product Categories</p>
+				<div class="flex flex-col gap-y-2">
+					<p
+						class="flex items-center p-4 font-semibold rounded-lg product-sidebar-link-active gap-x-3"
+					>
+						<i class="bi bi-arrow-right-circle"></i>
+						Jute Twine
+					</p>
+					<p
+						class="flex items-center p-4 font-semibold rounded-lg product-sidebar-link gap-x-3"
+					>
+						<i class="bi bi-arrow-right-circle"></i>
+						Jute Rope
+					</p>
+					<p
+						class="flex items-center p-4 font-semibold rounded-lg product-sidebar-link gap-x-3"
+					>
+						<i class="bi bi-arrow-right-circle"></i>
+						Jute Fiber
+					</p>
+					<p
+						class="flex items-center p-4 font-semibold rounded-lg product-sidebar-link gap-x-3"
+					>
+						<i class="bi bi-arrow-right-circle"></i>
+						Jute Yarn
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer section -->
+		<div
+			class="px-5 py-10 pt-20 text-white border-b lg:px-0 border-primary bg-secondary"
+		>
+			<div
+				class="container grid grid-cols-1 mx-auto gap-y-10 lg:grid-cols-4"
+			>
+				<div class="grid col-span-2 lg:grid-cols-2 gap-y-10">
+					<div class="flex">
+						<img src="./img/logo-bg-white.png" class="h-fit" />
+					</div>
+					<div class="flex flex-col gap-y-10">
+						<p class="text-xl font-semibold">Pages</p>
+						<ul class="flex flex-col gap-y-2">
+							<li>
+								<a href="" class="hover:underline">About Us</a>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Our Product</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Our Factory</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline">Our Team</a>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Contact Us</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline">Enquiry</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="flex flex-col col-span-2 gap-y-10">
+					<p class="text-xl font-semibold">Contact</p>
+					<div class="grid gap-10 lg:grid-cols-2">
+						<ul class="flex flex-col gap-y-2">
+							<li class="font-bold uppercase">mainul hossain</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-person-circle"></i>
+								Managing Director
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-telephone"></i>
+								+8801750613481
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-envelope"></i>
+								bonanza.jutecomposite@gmail.com
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-geo-alt"></i>
+								Kolaron, Boalmari, Faridpur, Dhaka, Bangladesh
+							</li>
+						</ul>
+
+						<ul class="flex flex-col gap-y-2">
+							<li class="font-bold uppercase">mohsin hossain</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-person-circle"></i>
+								Managing Director
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-telephone"></i>
+								+8801977672835
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-envelope"></i>
+								bonanza.jutecomposite@gmail.com
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-geo-alt"></i>
+								Kolaron, Boalmari, Faridpur, Dhaka, Bangladesh
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-5 text-white bg-secondary">
+			<div
+				class="container flex flex-col items-center justify-between px-5 py-5 mx-auto text-center lg:text-left gap-y-10 lg:px-0 lg:flex-row"
+			>
+				<p>
+					© 2023 Bonanza. All Rights Reserved. Designed by Code Studio
+				</p>
+				<ul class="flex items-start gap-x-5">
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-linkedin"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
