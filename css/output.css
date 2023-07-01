@@ -7670,6 +7670,10 @@ details.collapse summary::-webkit-details-marker{
   left: 0px;
 }
 
+.left-\[50\%\]{
+  left: 50%;
+}
+
 .left-\[70\%\]{
   left: 70%;
 }
@@ -7682,12 +7686,20 @@ details.collapse summary::-webkit-details-marker{
   left: 95%;
 }
 
+.right-\[6\%\]{
+  right: 6%;
+}
+
 .top-0{
   top: 0px;
 }
 
 .top-\[-300\%\]{
   top: -300%;
+}
+
+.top-\[50\%\]{
+  top: 50%;
 }
 
 .isolate{
@@ -8550,6 +8562,10 @@ details.collapse summary::-webkit-details-marker{
   gap: 2.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-x-10{
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -9123,6 +9139,10 @@ details.collapse summary::-webkit-details-marker{
   background-color: hsl(var(--s) / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -9331,6 +9351,21 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 1.25rem;
 }
 
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-20{
   padding-top: 5rem;
 }
@@ -9443,6 +9478,11 @@ details.collapse summary::-webkit-details-marker{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
