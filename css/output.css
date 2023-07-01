@@ -7714,6 +7714,10 @@ details.collapse summary::-webkit-details-marker{
   z-index: 1;
 }
 
+.z-\[100\]{
+  z-index: 100;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
 }
@@ -9346,6 +9350,11 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 2.5rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -9354,16 +9363,6 @@ details.collapse summary::-webkit-details-marker{
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pt-20{
@@ -9478,11 +9477,6 @@ details.collapse summary::-webkit-details-marker{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-bold{
