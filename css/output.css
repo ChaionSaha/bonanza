@@ -7710,12 +7710,12 @@ details.collapse summary::-webkit-details-marker{
   isolation: auto;
 }
 
-.z-\[1\]{
-  z-index: 1;
-}
-
 .z-\[100\]{
   z-index: 100;
+}
+
+.z-\[1\]{
+  z-index: 1;
 }
 
 .col-span-2{
@@ -7757,6 +7757,10 @@ details.collapse summary::-webkit-details-marker{
 
 .mb-20{
   margin-bottom: 5rem;
+}
+
+.mb-36{
+  margin-bottom: 9rem;
 }
 
 .mb-40{
@@ -7993,6 +7997,11 @@ details.collapse summary::-webkit-details-marker{
 
 .w-\[95\%\]{
   width: 95%;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full{
@@ -8575,6 +8584,11 @@ details.collapse summary::-webkit-details-marker{
        column-gap: 2.5rem;
 }
 
+.gap-x-16{
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
 .gap-x-2{
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -9103,6 +9117,11 @@ details.collapse summary::-webkit-details-marker{
   border-color: transparent;
 }
 
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-\[\#9E9E9E\]{
   --tw-bg-opacity: 1;
   background-color: rgb(158 158 158 / var(--tw-bg-opacity));
@@ -9353,6 +9372,11 @@ details.collapse summary::-webkit-details-marker{
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-5{
@@ -10053,6 +10077,16 @@ details.collapse summary::-webkit-details-marker{
   --tw-gradient-to: #65A184 var(--tw-gradient-to-position);
 }
 
+.active-tab{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #1B8900 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(27 137 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #65A184 var(--tw-gradient-to-position);
+}
+
 @media (hover:hover){
   .table .hover\:hover:hovertr:hover,
   .table .hover\:hover:hovertr:nth-child(even):hover{
@@ -10143,6 +10177,11 @@ details.collapse summary::-webkit-details-marker{
       }
     }
   }
+}
+
+.hover\:border-primary:hover{
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
 }
 
 .hover\:border-white:hover{

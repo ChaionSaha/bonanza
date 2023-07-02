@@ -75,3 +75,7 @@
 .product-sidebar-link-active {
 	@apply text-white bg-gradient;
 }
+
+.active-tab {
+	@apply bg-gradient text-white;
+}
