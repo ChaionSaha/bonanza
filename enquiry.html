@@ -104,103 +104,54 @@
 		</div>
 
 		<!-- form section -->
-		<div
-			class="h-[150vh]"
-			style="
-				background: linear-gradient(
-					to bottom,
-					rgba(101, 161, 132, 0.1) 50%,
-					#fff 50%
-				);
-			"
-		>
+		<div class="h-[150vh]" style="background: url('./img/enquiry-bg.png')">
 			<div
-				class="container h-full flex flex-col gap-y-10 justify-center items-center"
+				class="container flex flex-col items-center justify-center h-full"
 			>
 				<div
-					class="grid grid-cols-2 gap-x-10 bg-base-100 w-3/4 p-20 rounded-lg shadow-xl"
+					class="flex flex-col w-1/2 p-20 rounded-lg justify-self-center gap-y-10 bg-base-100"
 				>
-					<div class="flex flex-col gap-y-10">
-						<h3 class="text-secondary font-bold text-5xl">
-							Let us know about your next project
-						</h3>
-						<p>
-							Our friendly help team can be reached Monday through
-							Friday, from 7am to 5pm, Pacific Time. Just click
-							the button below to contact us.
-						</p>
-						<div class="flex flex-col gap-y-3">
-							<p
-								class="flex items-center font-semibold text-primary gap-x-2"
-							>
-								<i class="bi bi-geo-alt text-accent"></i>Office
-								location
-							</p>
-							<p>
-								Kolaron, Boalmari, Faridpur, Dhaka, Bangladesh
-							</p>
-						</div>
+					<h3 class="text-5xl font-bold text-secondary">
+						Enquiry for Bonanza
+					</h3>
+					<div class="flex flex-col gap-y-5">
+						<input
+							class="w-full input input-lg input-bordered"
+							type="text"
+							placeholder="Name"
+						/>
+						<input
+							class="input input-lg input-bordered"
+							type="phone"
+							placeholder="Phone"
+						/>
 
-						<div class="flex flex-col gap-y-3">
-							<p
-								class="flex items-center text-primary font-semibold gap-x-2"
-							>
-								<i class="bi bi-telephone text-accent"></i>Phone
-								number
-							</p>
-							<div class="flex flex-col text-accent font-bold">
-								<p>01750613481</p>
-								<p>01750613481</p>
-							</div>
-						</div>
-					</div>
+						<input
+							class="input input-lg input-bordered"
+							type="email"
+							placeholder="Email address"
+						/>
+						<input
+							class="input input-lg input-bordered"
+							type="text"
+							placeholder="Subject"
+						/>
 
-					<div class="flex flex-col gap-y-10">
-						<h3 class="text-secondary font-bold text-5xl">
-							Get In Touch
-						</h3>
-						<div class="flex flex-col gap-y-5">
-							<input
-								class="w-full input input-lg input-bordered"
-								type="text"
-								placeholder="Name"
-							/>
-							<input
-								class="input input-lg input-bordered"
-								type="phone"
-								placeholder="Phone"
-							/>
+						<textarea
+							class="textarea textarea-lg textarea-bordered"
+							placeholder="Enquiry"
+						></textarea>
 
-							<input
-								class="input input-lg input-bordered"
-								type="email"
-								placeholder="Email address"
-							/>
-							<select
-								class="font-normal select select-lg select-bordered"
-							>
-								<option>Financial consulting</option>
-								<option>Financial consulting</option>
-								<option>Financial consulting</option>
-								<option>Financial consulting</option>
-							</select>
-
-							<textarea
-								class="textarea textarea-lg textarea-bordered"
-								placeholder="Your message"
-							></textarea>
-
-							<button
-								class="self-center border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
-							>
-								Submit
-							</button>
-						</div>
+						<button
+							class="self-start border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
+						>
+							Submit
+						</button>
 					</div>
 				</div>
 
 				<div
-					class="container w-3/4 grid items-center grid-cols-6 py-10 mx-auto"
+					class="container grid items-center w-3/4 grid-cols-6 py-10 mx-auto"
 				>
 					<img src="./img/freedombird.png" alt="" />
 					<img src="./img/ident.png" alt="" />
