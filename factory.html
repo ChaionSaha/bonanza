@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/output.css" />
+		<title>Bonanza</title>
+	</head>
+	<body>
+		<div class="container flex flex-col h-full mx-auto">
+			<!-- Navbar -->
+			<div class="py-5 navbar">
+				<div class="navbar-start">
+					<div class="dropdown">
+						<label tabindex="0" class="btn btn-ghost lg:hidden">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="w-5 h-5"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h8m-8 6h16"
+								/>
+							</svg>
+						</label>
+						<ul
+							tabindex="0"
+							class="menu menu-lg font-bold text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+						>
+							<li>
+								<a href="./index.html">Home</a>
+							</li>
+							<li>
+								<a href="./aboutUs.html">About Us</a>
+							</li>
+							<li>
+								<a href="./ourProduct.html">Our Product</a>
+							</li>
+							<li><a href="./ourTeam.html">Our Team</a></li>
+							<li>
+								<a href="./contactUs.html">Contact</a>
+							</li>
+							<li class="navlink-active">
+								<a href="./enquiry.html">Enquiry</a>
+							</li>
+						</ul>
+					</div>
+					<a class="text-xl normal-case"
+						><img src="./img/logo.png" alt=""
+					/></a>
+				</div>
+				<div class="hidden navbar-center lg:flex">
+					<ul
+						class="px-1 text-lg font-bold menu menu-horizontal gap-x-5"
+					>
+						<li>
+							<a href="./index.html">Home</a>
+						</li>
+						<li>
+							<a href="./aboutUs.html">About Us</a>
+						</li>
+						<li>
+							<a href="./ourProduct.html">Our Product</a>
+						</li>
+						<li><a href="./ourTeam.html">Our Team</a></li>
+						<li>
+							<a href="./contactUs.html">Contact</a>
+						</li>
+						<li class="navlink-active">
+							<a href="./enquiry.html">Enquiry</a>
+						</li>
+					</ul>
+				</div>
+				<div class="flex-col items-center hidden navbar-end lg:flex">
+					<p>WhatsApp for any question</p>
+					<p class="text-2xl font-bold text-secondary">
+						+8801750613481
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Hero section -->
+		<div
+			class="h-[35vh]"
+			style="background: url('./img/factory-hero-bg.png')"
+		>
+			<div
+				class="container flex flex-col items-center justify-center h-full mx-auto text-white gap-y-5"
+			>
+				<h2 class="text-5xl font-bold">Our Factory</h2>
+				<div class="text-sm breadcrumbs">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li class="font-medium">Our Factory</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Request a callback section -->
+		<div class="container flex items-center mt-16 gap-x-36">
+			<div class="flex flex-col gap-y-20">
+				<div class="flex flex-col gap-y-3">
+					<p class="font-medium uppercase text-accent">
+						About Factory
+					</p>
+					<p class="text-4xl font-bold text-primary">
+						We have 12 years experience
+					</p>
+				</div>
+				<div class="flex flex-col gap-y-10">
+					<p class="text-xl italic">
+						“With over 12 years of industry experience, we have our
+						expertise in producing top-quality jute products,
+						delivering excellence to our clients.”
+					</p>
+					<p>
+						Our factory is a modern facility specializing in the
+						production of high-quality jute yarn, twine, and
+						jute-based products. With advanced equipment and a
+						skilled team, we prioritize precision and efficiency
+						while maintaining stringent safety standards and
+						sustainable practices.
+					</p>
+				</div>
+			</div>
+			<div class="flex flex-col w-3/4 gap-y-7">
+				<p
+					class="text-3xl font-bold text-white p-7 rounded-xl bg-secondary"
+				>
+					Request a call back
+				</p>
+				<div class="flex flex-col p-5 gap-y-5">
+					<p class="italic">
+						Dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur excepteur sint occaecat
+					</p>
+					<div class="flex flex-col gap-y-5">
+						<input
+							class="w-full input input-lg input-bordered"
+							type="text"
+							placeholder="Name"
+						/>
+						<input
+							class="input input-lg input-bordered"
+							type="phone"
+							placeholder="Phone"
+						/>
+
+						<input
+							class="input input-lg input-bordered"
+							type="email"
+							placeholder="Email address"
+						/>
+						<select
+							class="font-normal select select-lg select-bordered"
+						>
+							<option>Financial consulting</option>
+							<option>Financial consulting</option>
+							<option>Financial consulting</option>
+							<option>Financial consulting</option>
+						</select>
+
+						<button
+							class="self-center border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
+						>
+							Submit
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- long video section -->
+		<div class="container relative mt-20">
+			<img src="./img/factory-video-long.png" alt="" />
+			<p class="absolute absolute-center">
+				<i
+					class="text-white cursor-pointer text-8xl bi bi-play-fill"
+				></i>
+			</p>
+		</div>
+
+		<!-- multiple video section -->
+		<div class="container grid grid-cols-3 mt-20 gap-x-10 gap-y-20">
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-1.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Bonanza In Birds Eye
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-2.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Factory Size
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-3.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Finished stock of jute bag
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-4.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Golden Eagle Spinning Machine
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-5.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Jute Yarn/Twine Stock
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+
+			<div class="relative flex flex-col gap-y-7">
+				<img src="./img/factory-video-6.png" alt="" />
+				<p class="absolute absolute-center">
+					<i
+						class="text-4xl text-white cursor-pointer bi bi-play-fill"
+					></i>
+				</p>
+				<div class="flex flex-col gap-y-1">
+					<p class="text-2xl font-semibold text-primary">
+						Factory Size
+					</p>
+					<p class="text-primary">Above 100,000 square meters</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- frequently asked question section -->
+		<div class="container flex flex-col items-center mt-36 gap-y-20">
+			<div class="flex flex-col items-center w-1/2 text-center gap-y-3">
+				<h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
+				<p class="text-primary">
+					Lorem ipsum dolor sit amet consectetur. Tellus sem quisque
+					tristique gravida pulvinar. Lacus tortor venenatis risus
+					interdum id urna urna fermentum facilisis.
+				</p>
+			</div>
+			<div class="w-[60%] join join-vertical">
+				<div class="border-b rounded-none collapse collapse-plus">
+					<input type="checkbox" name="my-accordion-3" />
+					<div class="text-xl font-medium capitalize collapse-title">
+						how soon will my order ship
+					</div>
+					<div class="collapse-content text-primary">
+						<p>
+							Is there any warranty exclusions? Lorem ipsum dolor
+							sit amet consectetur. Diam pellentesque faucibus
+							habitant mauris a et quis placerat purus. Vitae vel
+							cum dui quisque donec eget. Eu aliquet nibh accumsan
+							sit lorem. Amet blandit sem risus eu velit dui
+							suspendisse tristique. Velit turpis vitae blandit
+							velit. Viverra elit.
+						</p>
+					</div>
+				</div>
+
+				<div class="border-b rounded-none collapse collapse-plus">
+					<input type="checkbox" name="my-accordion-3" />
+					<div class="text-xl font-medium capitalize collapse-title">
+						is there any warranty exclusions?
+					</div>
+					<div class="collapse-content text-primary">
+						<p>
+							Is there any warranty exclusions? Lorem ipsum dolor
+							sit amet consectetur. Diam pellentesque faucibus
+							habitant mauris a et quis placerat purus. Vitae vel
+							cum dui quisque donec eget. Eu aliquet nibh accumsan
+							sit lorem. Amet blandit sem risus eu velit dui
+							suspendisse tristique. Velit turpis vitae blandit
+							velit. Viverra elit.
+						</p>
+					</div>
+				</div>
+
+				<div class="border-b rounded-none collapse collapse-plus">
+					<input type="checkbox" name="my-accordion-3" />
+					<div class="text-xl font-medium capitalize collapse-title">
+						is there any return exclusions?
+					</div>
+					<div class="collapse-content text-primary">
+						<p>
+							Is there any warranty exclusions? Lorem ipsum dolor
+							sit amet consectetur. Diam pellentesque faucibus
+							habitant mauris a et quis placerat purus. Vitae vel
+							cum dui quisque donec eget. Eu aliquet nibh accumsan
+							sit lorem. Amet blandit sem risus eu velit dui
+							suspendisse tristique. Velit turpis vitae blandit
+							velit. Viverra elit.
+						</p>
+					</div>
+				</div>
+
+				<div class="border-b rounded-none collapse collapse-plus">
+					<input type="checkbox" name="my-accordion-3" />
+					<div class="text-xl font-medium capitalize collapse-title">
+						Will I be charged for a replacement item?
+					</div>
+					<div class="collapse-content text-primary">
+						<p>
+							Is there any warranty exclusions? Lorem ipsum dolor
+							sit amet consectetur. Diam pellentesque faucibus
+							habitant mauris a et quis placerat purus. Vitae vel
+							cum dui quisque donec eget. Eu aliquet nibh accumsan
+							sit lorem. Amet blandit sem risus eu velit dui
+							suspendisse tristique. Velit turpis vitae blandit
+							velit. Viverra elit.
+						</p>
+					</div>
+				</div>
+
+				<div class="border-b rounded-none collapse collapse-plus">
+					<input type="checkbox" name="my-accordion-3" />
+					<div class="text-xl font-medium capitalize collapse-title">
+						How can I track my orders & payment?
+					</div>
+					<div class="collapse-content text-primary">
+						<p>
+							Is there any warranty exclusions? Lorem ipsum dolor
+							sit amet consectetur. Diam pellentesque faucibus
+							habitant mauris a et quis placerat purus. Vitae vel
+							cum dui quisque donec eget. Eu aliquet nibh accumsan
+							sit lorem. Amet blandit sem risus eu velit dui
+							suspendisse tristique. Velit turpis vitae blandit
+							velit. Viverra elit.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Review section -->
+		<div class="flex mt-36">
+			<div class="w-1/2"><img src="./img/factory-bg-2.png" alt="" /></div>
+			<div
+				class="flex flex-col items-center justify-center w-1/2 text-center gap-y-16"
+			>
+				<div
+					class="flex flex-col items-center w-1/2 text-center gap-y-10"
+				>
+					<p class="italic text-primary">
+						Phasellus ultrices ut tortor at porta. Praesent maximus,
+						lacus sed rutrum aliquet, lacus tellus tincidunt nisl,
+						vitae molestie nisi sapien et dolor suspendisse mi est
+					</p>
+					<div class="flex flex-col gap-y-4">
+						<p
+							class="flex text-transparent gap-x-2 bg-clip-text bg-gradient"
+						>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</p>
+						<p
+							class="flex flex-col font-medium text-transparent bg-clip-text bg-gradient"
+						>
+							Alice Guzman
+							<span class="text-[#9C9EA6] font-normal"
+								>HSBC Bank</span
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- have a question section -->
+		<div
+			class="w-screen py-5"
+			style="background: url('./img/factory-bg-3.png')"
+		>
+			<div class="container flex justify-center h-[62vh] mx-auto">
+				<div class="flex flex-col justify-center w-1/2 h-full gap-y-7">
+					<h2 class="text-5xl font-bold text-center text-white">
+						Have a question?
+					</h2>
+
+					<div class="flex flex-col gap-y-5">
+						<div class="grid grid-cols-2 gap-x-5">
+							<input
+								class="input input-border input-lg"
+								type="text"
+								placeholder="Name"
+							/>
+							<input
+								class="input input-border input-lg"
+								type="email"
+								placeholder="Email Address"
+							/>
+						</div>
+
+						<textarea
+							class="textarea textarea-lg h-36"
+							placeholder="Question"
+						></textarea>
+						<button
+							class="self-start border-0 px-16 hover:text-white normal-case btn btn-lg text-black duration-150 hover:bg-gradient-to-r from-[#1B8900] to-[#65A184]"
+						>
+							Submit
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer section -->
+		<div
+			class="px-5 py-10 pt-20 text-white border-b lg:px-0 border-primary bg-secondary"
+		>
+			<div
+				class="container grid grid-cols-1 mx-auto gap-y-10 lg:grid-cols-4"
+			>
+				<div class="grid col-span-2 lg:grid-cols-2 gap-y-10">
+					<div class="flex">
+						<img src="./img/logo-bg-white.png" class="h-fit" />
+					</div>
+					<div class="flex flex-col gap-y-10">
+						<p class="text-xl font-semibold">Pages</p>
+						<ul class="flex flex-col gap-y-2">
+							<li>
+								<a href="" class="hover:underline">About Us</a>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Our Product</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Our Factory</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline">Our Team</a>
+							</li>
+							<li>
+								<a href="" class="hover:underline"
+									>Contact Us</a
+								>
+							</li>
+							<li>
+								<a href="" class="hover:underline">Enquiry</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="flex flex-col col-span-2 gap-y-10">
+					<p class="text-xl font-semibold">Contact</p>
+					<div class="grid gap-10 lg:grid-cols-2">
+						<ul class="flex flex-col gap-y-2">
+							<li class="font-bold uppercase">mainul hossain</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-person-circle"></i>
+								Managing Director
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-telephone"></i>
+								+8801750613481
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-envelope"></i>
+								bonanza.jutecomposite@gmail.com
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-geo-alt"></i>
+								Kolaron, Boalmari, Faridpur, Dhaka, Bangladesh
+							</li>
+						</ul>
+
+						<ul class="flex flex-col gap-y-2">
+							<li class="font-bold uppercase">mohsin hossain</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-person-circle"></i>
+								Managing Director
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-telephone"></i>
+								+8801977672835
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-envelope"></i>
+								bonanza.jutecomposite@gmail.com
+							</li>
+							<li class="flex items-center gap-x-2">
+								<i class="bi bi-geo-alt"></i>
+								Kolaron, Boalmari, Faridpur, Dhaka, Bangladesh
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-5 text-white bg-secondary">
+			<div
+				class="container flex flex-col items-center justify-between px-5 py-5 mx-auto text-center lg:text-left gap-y-10 lg:px-0 lg:flex-row"
+			>
+				<p>
+					© 2023 Bonanza. All Rights Reserved. Designed by Code Studio
+				</p>
+				<ul class="flex items-start gap-x-5">
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a
+							href=""
+							class="flex items-center justify-center p-3 px-4 duration-100 border border-transparent rounded-full hover:border-white"
+							><i class="text-xl bi bi-linkedin"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
