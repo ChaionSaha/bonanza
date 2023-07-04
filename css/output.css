@@ -7787,10 +7787,6 @@ details.collapse summary::-webkit-details-marker{
   margin-top: 5rem;
 }
 
-.mt-28{
-  margin-top: 7rem;
-}
-
 .mt-3{
   margin-top: 0.75rem;
 }
@@ -7926,10 +7922,6 @@ details.collapse summary::-webkit-details-marker{
   height: 62vh;
 }
 
-.h-\[80vh\]{
-  height: 80vh;
-}
-
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
@@ -7958,11 +7950,6 @@ details.collapse summary::-webkit-details-marker{
 
 .min-h-screen{
   min-height: 100vh;
-}
-
-.min-h-fit{
-  min-height: -moz-fit-content;
-  min-height: fit-content;
 }
 
 .w-0{
@@ -10272,11 +10259,6 @@ details.collapse summary::-webkit-details-marker{
 
   .lg\:translate-y-\[-30\%\]{
     --tw-translate-y: -30%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:translate-y-\[40\%\]{
-    --tw-translate-y: 40%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
