@@ -88,9 +88,13 @@
 		</div>
 
 		<!-- Why choose us section -->
-		<div class="container flex mx-auto mt-20">
-			<div class="w-1/2"><img src="./img/aboutUs-pic1.png" alt="" /></div>
-			<div class="flex flex-col w-1/2 gap-y-10">
+		<div
+			class="container flex flex-col px-5 mx-auto mt-20 gap-y-10 lg:px-0 lg:flex-row"
+		>
+			<div class="lg:w-1/2">
+				<img src="./img/aboutUs-pic1.png" alt="" />
+			</div>
+			<div class="flex flex-col lg:w-1/2 gap-y-10">
 				<div class="flex flex-col">
 					<p class="font-medium uppercase text-accent">
 						why choose us
@@ -154,8 +158,8 @@
 		</div>
 
 		<!-- what we offer section -->
-		<div class="container flex mx-auto mt-36">
-			<div class="flex flex-col w-1/2 gap-y-10">
+		<div class="container flex px-5 mx-auto lg:px-0 mt-36">
+			<div class="flex flex-col lg:w-1/2 gap-y-10">
 				<div class="flex flex-col">
 					<p class="font-medium uppercase text-accent">
 						what we offer
@@ -174,7 +178,9 @@
 		</div>
 
 		<!-- country section -->
-		<div class="container grid grid-cols-5 mx-auto mt-20">
+		<div
+			class="container grid grid-cols-2 px-5 mx-auto mt-20 gap-y-10 lg:gap-y-0 lg:px-0 lg:grid-cols-5"
+		>
 			<img src="./img/Ellipse 72.png" alt="" srcset="" />
 			<img src="./img/Ellipse 73.png" alt="" srcset="" />
 			<img src="./img/Ellipse 74.png" alt="" srcset="" />
@@ -184,7 +190,7 @@
 
 		<!-- A perfect business solution section -->
 		<div
-			class="container flex flex-col items-center mx-auto gap-y-20 mt-36"
+			class="container flex flex-col items-center px-5 mx-auto lg:px-0 gap-y-20 mt-36"
 		>
 			<div class="flex flex-col text-center">
 				<p class="font-medium uppercase text-accent">why choose us</p>
@@ -192,7 +198,7 @@
 					A perfect business solution
 				</p>
 			</div>
-			<div class="grid grid-cols-4">
+			<div class="grid lg:grid-cols-4 gap-y-10">
 				<div
 					class="flex flex-col items-center px-10 text-center border-r gap-y-5"
 				>
@@ -234,27 +240,31 @@
 					>
 						800K+
 					</p>
-					<p class="w-1/2">customer satisfied with the service</p>
+					<p class="lg:w-1/2">customer satisfied with the service</p>
 				</div>
 			</div>
 		</div>
 
 		<!-- GREAT REVIEWS FOR OUR SERVICES section -->
-		<div class="flex mt-36">
-			<div class="w-1/2"><img src="./img/aboutUs-pic3.png" alt="" /></div>
-			<div class="flex flex-col items-center w-1/2 text-center gap-y-16">
+		<div class="flex flex-col gap-y-10 mt-36 lg:flex-row">
+			<div class="hidden lg:block lg:w-1/2">
+				<img src="./img/aboutUs-pic3.png" alt="" />
+			</div>
+			<div
+				class="flex flex-col items-center px-5 text-center lg:px-0 lg:w-1/2 gap-y-16"
+			>
 				<div class="flex flex-col items-center text-center">
 					<p class="font-medium uppercase text-accent">
 						great reviews for our services
 					</p>
 					<p
-						class="font-bold w-3/4 text-5xl leading-tight text-[transparent] bg-clip-text bg-gradient"
+						class="font-bold lg:w-3/4 text-5xl leading-tight text-[transparent] bg-clip-text bg-gradient"
 					>
 						Trusted by some biggest names
 					</p>
 				</div>
 				<div
-					class="flex flex-col items-center w-1/2 text-center gap-y-10"
+					class="flex flex-col items-center text-center lg:w-1/2 gap-y-10"
 				>
 					<p class="italic text-primary">
 						Phasellus ultrices ut tortor at porta. Praesent maximus,
@@ -286,14 +296,17 @@
 
 		<!-- request a callback section -->
 		<div
-			class="mt-36 h-[80vh]"
-			style="background: url('./img/aboutUs-pic4.png')"
+			class="mt-36 h-[80vh] min-h-max"
+			style="
+				background: url('./img/aboutUs-pic4.png');
+				background-size: cover;
+			"
 		>
 			<div
-				class="container translate-y-[40%] border gap-y-10 bg-base-100 p-16 flex items-center flex-col"
+				class="container lg:translate-y-[40%] py-10 lg:border gap-y-10 bg-base-100 lg:p-16 flex items-center flex-col"
 			>
 				<div
-					class="flex flex-col gap-y-3 w-[40%] items-center text-center"
+					class="flex flex-col gap-y-3 lg:w-[40%] items-center text-center"
 				>
 					<p class="font-medium uppercase text-accent">
 						request a callback
@@ -302,15 +315,15 @@
 						Let us know about your next project
 					</p>
 				</div>
-				<p class="w-[40%] text-primary">
+				<p class="lg:w-[40%] text-primary px-5 lg:px-0">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					Maecenas consectetur, ligula semper sagittis lobortis, eros
 					metus efficitur purus
 				</p>
-				<div class="flex flex-col w-3/4 gap-y-5">
-					<div class="grid grid-cols-2 gap-x-5">
+				<div class="flex flex-col w-full px-5 lg:w-3/4 lg:px-0 gap-y-5">
+					<div class="grid gap-y-10 lg:grid-cols-2 gap-x-5">
 						<input
-							class="w-full input input-lg input-bordered"
+							class="input input-lg input-bordered"
 							type="text"
 							placeholder="Name"
 						/>
@@ -320,7 +333,7 @@
 							placeholder="Phone"
 						/>
 					</div>
-					<div class="grid grid-cols-2 gap-x-5">
+					<div class="grid gap-y-10 lg:grid-cols-2 gap-x-5">
 						<input
 							class="input input-lg input-bordered"
 							type="email"
@@ -336,7 +349,7 @@
 						</select>
 					</div>
 					<button
-						class="self-center border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
+						class="lg:self-center self-start border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
 					>
 						Submit
 					</button>
@@ -344,7 +357,7 @@
 			</div>
 		</div>
 		<div
-			class="container grid items-center w-full grid-cols-6 py-10 mx-auto mt-48 mb-20"
+			class="container grid items-center w-full grid-cols-2 px-5 py-10 mx-auto mt-28 gap-x-10 gap-y-10 lg:gap-x-0 xl:gap-y-0 lg:px-0 lg:grid-cols-6"
 		>
 			<img src="./img/freedombird.png" alt="" />
 			<img src="./img/ident.png" alt="" />
@@ -369,28 +382,38 @@
 						<p class="text-xl font-semibold">Pages</p>
 						<ul class="flex flex-col gap-y-2">
 							<li>
-								<a href="" class="hover:underline">About Us</a>
+								<a href="./aboutUs.html" class="hover:underline"
+									>About Us</a
+								>
 							</li>
 							<li>
-								<a href="" class="hover:underline"
+								<a
+									href="./ourProduct.html"
+									class="hover:underline"
 									>Our Product</a
 								>
 							</li>
 							<li>
-								<a href="" class="hover:underline"
+								<a href="./factory.html" class="hover:underline"
 									>Our Factory</a
 								>
 							</li>
 							<li>
-								<a href="" class="hover:underline">Our Team</a>
+								<a href="./ourTeam.html" class="hover:underline"
+									>Our Team</a
+								>
 							</li>
 							<li>
-								<a href="" class="hover:underline"
+								<a
+									href="./contactUs.html"
+									class="hover:underline"
 									>Contact Us</a
 								>
 							</li>
 							<li>
-								<a href="" class="hover:underline">Enquiry</a>
+								<a href="./enquiry.html" class="hover:underline"
+									>Enquiry</a
+								>
 							</li>
 						</ul>
 					</div>
