@@ -96,8 +96,10 @@
 		</div>
 
 		<!-- Product section -->
-		<div class="container flex min-h-screen mt-20 gap-x-20">
-			<div class="flex relative flex-col gap-y-7 w-[20%]">
+		<div
+			class="container flex flex-col min-h-screen px-5 mt-20 gap-y-20 lg:flex-row gap-x-20 lg:px-0"
+		>
+			<div class="flex relative flex-col gap-y-7 lg:w-[20%]">
 				<p class="text-xl font-bold">Product Categories</p>
 				<div class="flex flex-col gap-y-2">
 					<p
@@ -126,7 +128,7 @@
 					</p>
 				</div>
 				<div
-					class="absolute bottom-0 flex flex-col self-end w-full px-5 py-8 text-white rounded-lg justify-self-end gap-y-4 h-fit"
+					class="absolute bottom-0 flex-col self-end hidden w-full px-5 py-8 text-white rounded-lg lg:flex justify-self-end gap-y-4 h-fit"
 					style="
 						background: url('./img/Group-1.png');
 						background-size: cover;
@@ -151,7 +153,7 @@
 				</div>
 			</div>
 
-			<div class="grid grid-cols-3 gap-20 px-5 w-[80%]">
+			<div class="grid lg:grid-cols-3 gap-20 px-5 lg:w-[80%]">
 				<div class="flex flex-col gap-y-4">
 					<img src="./img/product-1.png" />
 					<p class="font-semibold">
@@ -317,35 +319,43 @@
 		</div>
 
 		<!-- Video section -->
-		<div class="container relative flex justify-center mt-36">
+		<div class="container relative flex justify-center px-5 mt-36 lg:px-0">
 			<img src="./img/surfer-blue-wave_72229-1375 4.png" alt="" />
-			<span class="absolute top-[50%] left-[50%] text-8xl text-white">
-				<i class="bi bi-play-fill"></i
+			<span
+				class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] lg:text-8xl text-6xl text-white"
+			>
+				<i class="cursor-pointer bi bi-play-fill"></i
 			></span>
 		</div>
 
 		<!-- success story section -->
-		<div class="mt-36" style="background: url('./img/products-bg-2.png')">
+		<div
+			class="mt-36"
+			style="
+				background: url('./img/products-bg-2.png');
+				background-size: cover;
+			"
+		>
 			<div
-				class="container flex flex-col items-center py-20 text-center text-white gap-y-20"
+				class="container flex flex-col items-center px-5 py-20 text-center text-white lg:p-x-0 gap-y-20"
 			>
 				<div class="flex flex-col">
 					<p class="text-sm font-medium uppercase">numbers speak</p>
 					<p class="text-5xl font-bold">Success story</p>
 				</div>
-				<div class="grid grid-cols-3 gap-x-20">
+				<div class="grid gap-y-10 lg:grid-cols-3 gap-x-20">
 					<div class="flex flex-col">
-						<p class="font-bold text-8xl">93.33%</p>
+						<p class="text-5xl font-bold lg:text-8xl">93.33%</p>
 						<p class="font-medium">Response rate</p>
 					</div>
 
 					<div class="flex flex-col">
-						<p class="font-bold text-8xl">370</p>
+						<p class="text-5xl font-bold lg:text-8xl">370</p>
 						<p class="font-medium">Response time</p>
 					</div>
 
 					<div class="flex flex-col">
-						<p class="font-bold text-8xl">3.689</p>
+						<p class="text-5xl font-bold lg:text-8xl">3.689</p>
 						<p class="font-medium">Quotation Perfomance</p>
 					</div>
 				</div>
