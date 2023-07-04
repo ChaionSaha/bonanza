@@ -104,7 +104,9 @@
 		</div>
 
 		<!-- Request a callback section -->
-		<div class="container flex items-center mt-16 gap-x-36">
+		<div
+			class="container flex flex-col items-center px-5 mt-16 gap-y-10 lg:px-0 lg:flex-row gap-x-36"
+		>
 			<div class="flex flex-col gap-y-20">
 				<div class="flex flex-col gap-y-3">
 					<p class="font-medium uppercase text-accent">
@@ -130,13 +132,13 @@
 					</p>
 				</div>
 			</div>
-			<div class="flex flex-col w-3/4 gap-y-7">
+			<div class="flex flex-col lg:w-3/4 gap-y-7">
 				<p
-					class="text-3xl font-bold text-white p-7 rounded-xl bg-secondary"
+					class="text-3xl font-bold text-center lg:text-white text-secondary p-7 rounded-xl lg:bg-secondary"
 				>
 					Request a call back
 				</p>
-				<div class="flex flex-col p-5 gap-y-5">
+				<div class="flex flex-col lg:p-5 gap-y-5">
 					<p class="italic">
 						Dolor in reprehenderit in voluptate velit esse cillum
 						dolore eu fugiat nulla pariatur excepteur sint occaecat
@@ -168,7 +170,7 @@
 						</select>
 
 						<button
-							class="self-center border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
+							class="self-start lg:self-center border-0 px-16 text-white normal-case btn btn-lg bg-gradient-to-r from-[#1B8900] to-[#65A184]"
 						>
 							Submit
 						</button>
@@ -178,17 +180,19 @@
 		</div>
 
 		<!-- long video section -->
-		<div class="container relative mt-20">
+		<div class="container relative px-5 mt-20 lg:px-0">
 			<img src="./img/factory-video-long.png" alt="" />
 			<p class="absolute absolute-center">
 				<i
-					class="text-white cursor-pointer text-8xl bi bi-play-fill"
+					class="text-6xl text-white cursor-pointer lg:text-8xl bi bi-play-fill"
 				></i>
 			</p>
 		</div>
 
 		<!-- multiple video section -->
-		<div class="container grid grid-cols-3 mt-20 gap-x-10 gap-y-20">
+		<div
+			class="container grid px-5 mt-20 lg:px-0 lg:grid-cols-3 gap-x-10 gap-y-20"
+		>
 			<div class="relative flex flex-col gap-y-7">
 				<img src="./img/factory-video-1.png" alt="" />
 				<p class="absolute absolute-center">
@@ -281,8 +285,12 @@
 		</div>
 
 		<!-- frequently asked question section -->
-		<div class="container flex flex-col items-center mt-36 gap-y-20">
-			<div class="flex flex-col items-center w-1/2 text-center gap-y-3">
+		<div
+			class="container flex flex-col items-center px-5 lg:px-0 mt-36 gap-y-20"
+		>
+			<div
+				class="flex flex-col items-center text-center lg:w-1/2 gap-y-3"
+			>
 				<h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
 				<p class="text-primary">
 					Lorem ipsum dolor sit amet consectetur. Tellus sem quisque
@@ -290,7 +298,7 @@
 					interdum id urna urna fermentum facilisis.
 				</p>
 			</div>
-			<div class="w-[60%] join join-vertical">
+			<div class="lg:w-[60%] join join-vertical">
 				<div class="border-b rounded-none collapse collapse-plus">
 					<input type="checkbox" name="my-accordion-3" />
 					<div class="text-xl font-medium capitalize collapse-title">
@@ -384,13 +392,15 @@
 		</div>
 
 		<!-- Review section -->
-		<div class="flex mt-36">
-			<div class="w-1/2"><img src="./img/factory-bg-2.png" alt="" /></div>
+		<div class="flex flex-col gap-y-10 lg:flex-row mt-36">
+			<div class="lg:w-1/2">
+				<img src="./img/factory-bg-2.png" alt="" />
+			</div>
 			<div
-				class="flex flex-col items-center justify-center w-1/2 text-center gap-y-16"
+				class="flex flex-col items-center justify-center px-5 text-center lg:px-0 lg:w-1/2 gap-y-16"
 			>
 				<div
-					class="flex flex-col items-center w-1/2 text-center gap-y-10"
+					class="flex flex-col items-center text-center lg:w-1/2 gap-y-10"
 				>
 					<p class="italic text-primary">
 						Phasellus ultrices ut tortor at porta. Praesent maximus,
@@ -422,17 +432,19 @@
 
 		<!-- have a question section -->
 		<div
-			class="w-screen py-5"
+			class="w-screen py-5 mt-20 lg:mt-0"
 			style="background: url('./img/factory-bg-3.png')"
 		>
 			<div class="container flex justify-center h-[62vh] mx-auto">
-				<div class="flex flex-col justify-center w-1/2 h-full gap-y-7">
+				<div
+					class="flex flex-col justify-center h-full px-5 lg:px-0 lg:w-1/2 gap-y-7"
+				>
 					<h2 class="text-5xl font-bold text-center text-white">
 						Have a question?
 					</h2>
 
 					<div class="flex flex-col gap-y-5">
-						<div class="grid grid-cols-2 gap-x-5">
+						<div class="grid gap-y-5 lg:grid-cols-2 gap-x-5">
 							<input
 								class="input input-border input-lg"
 								type="text"

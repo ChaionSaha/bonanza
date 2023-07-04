@@ -9329,6 +9329,10 @@ details.collapse summary::-webkit-details-marker{
   padding: 1.75rem;
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -10352,12 +10356,29 @@ details.collapse summary::-webkit-details-marker{
     border-width: 1px;
   }
 
+  .lg\:bg-transparent{
+    background-color: transparent;
+  }
+
+  .lg\:bg-secondary{
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--s) / var(--tw-bg-opacity));
+  }
+
   .lg\:p-16{
     padding: 4rem;
   }
 
   .lg\:p-20{
     padding: 5rem;
+  }
+
+  .lg\:p-0{
+    padding: 0px;
+  }
+
+  .lg\:p-5{
+    padding: 1.25rem;
   }
 
   .lg\:px-0{
@@ -10392,6 +10413,16 @@ details.collapse summary::-webkit-details-marker{
   .lg\:text-8xl{
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:shadow-xl{
