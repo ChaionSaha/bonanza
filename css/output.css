@@ -8632,6 +8632,21 @@ details.collapse summary::-webkit-details-marker{
   row-gap: 1.75rem;
 }
 
+.gap-x-32{
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
+}
+
+.gap-x-28{
+  -moz-column-gap: 7rem;
+       column-gap: 7rem;
+}
+
+.gap-x-24{
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
