@@ -9494,6 +9494,11 @@ details.collapse summary::-webkit-details-marker{
   line-height: 1.75rem;
 }
 
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -10429,6 +10434,15 @@ details.collapse summary::-webkit-details-marker{
     row-gap: 0px;
   }
 
+  .xl\:gap-x-5{
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+
+  .xl\:text-center{
+    text-align: center;
+  }
+
   .xl\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
@@ -10437,5 +10451,10 @@ details.collapse summary::-webkit-details-marker{
   .xl\:text-8xl{
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
