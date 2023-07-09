@@ -9819,12 +9819,6 @@ details.collapse summary::-webkit-details-marker{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-2xl{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-xl{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -10276,6 +10270,10 @@ details.collapse summary::-webkit-details-marker{
     width: 40%;
   }
 
+  .lg\:w-\[50\%\]{
+    width: 50%;
+  }
+
   .lg\:w-\[60\%\]{
     width: 60%;
   }
@@ -10286,14 +10284,6 @@ details.collapse summary::-webkit-details-marker{
 
   .lg\:w-\[90\%\]{
     width: 90%;
-  }
-
-  .lg\:w-\[50\%\]{
-    width: 50%;
-  }
-
-  .lg\:w-\[45\%\]{
-    width: 45%;
   }
 
   .lg\:translate-y-\[-30\%\]{
@@ -10347,11 +10337,6 @@ details.collapse summary::-webkit-details-marker{
     border-width: 1px;
   }
 
-  .lg\:bg-secondary{
-    --tw-bg-opacity: 1;
-    background-color: hsl(var(--s) / var(--tw-bg-opacity));
-  }
-
   .lg\:p-0{
     padding: 0px;
   }
@@ -10395,11 +10380,6 @@ details.collapse summary::-webkit-details-marker{
   .lg\:text-8xl{
     font-size: 6rem;
     line-height: 1;
-  }
-
-  .lg\:text-white{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:shadow-xl{

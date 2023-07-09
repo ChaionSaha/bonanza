@@ -84,7 +84,7 @@
 			<div
 				class="container flex flex-col items-center justify-center h-full mx-auto text-white gap-y-5"
 			>
-				<h2 class="text-5xl font-bold">Our Factory</h2>
+				<h2 class="text-4xl font-bold">Our Factory</h2>
 				<div class="text-sm breadcrumbs">
 					<ul>
 						<li><a href="./index.html">Home</a></li>
@@ -265,11 +265,18 @@
 				</p>
 			</div>
 			<div class="lg:w-[60%] join join-vertical">
-				<div class="border-b rounded-none collapse collapse-plus">
+				<div class="border-b rounded-none collapse">
 					<input type="checkbox" name="my-accordion-3" />
-					<div class="text-xl font-medium capitalize collapse-title">
+
+					<div
+						class="flex items-center text-xl font-medium capitalize collapse-title gap-x-5"
+					>
+						<p class="accordion-icon">
+							<i class="text-3xl bi bi-plus text-secondary"></i>
+						</p>
 						how soon will my order ship
 					</div>
+
 					<div class="collapse-content text-primary">
 						<p>
 							Is there any warranty exclusions? Lorem ipsum dolor sit amet
@@ -282,9 +289,14 @@
 					</div>
 				</div>
 
-				<div class="border-b rounded-none collapse collapse-plus">
+				<div class="border-b rounded-none collapse">
 					<input type="checkbox" name="my-accordion-3" />
-					<div class="text-xl font-medium capitalize collapse-title">
+					<div
+						class="flex items-center text-xl font-medium capitalize gap-x-5 collapse-title"
+					>
+						<p class="accordion-icon">
+							<i class="text-3xl bi bi-plus text-secondary"></i>
+						</p>
 						is there any warranty exclusions?
 					</div>
 					<div class="collapse-content text-primary">
@@ -299,9 +311,14 @@
 					</div>
 				</div>
 
-				<div class="border-b rounded-none collapse collapse-plus">
+				<div class="border-b rounded-none collapse">
 					<input type="checkbox" name="my-accordion-3" />
-					<div class="text-xl font-medium capitalize collapse-title">
+					<div
+						class="flex items-center text-xl font-medium capitalize collapse-title gap-x-5"
+					>
+						<p class="accordion-icon">
+							<i class="text-3xl bi bi-plus text-secondary"></i>
+						</p>
 						is there any return exclusions?
 					</div>
 					<div class="collapse-content text-primary">
@@ -316,9 +333,14 @@
 					</div>
 				</div>
 
-				<div class="border-b rounded-none collapse collapse-plus">
+				<div class="border-b rounded-none collapse">
 					<input type="checkbox" name="my-accordion-3" />
-					<div class="text-xl font-medium capitalize collapse-title">
+					<div
+						class="flex items-center text-xl font-medium capitalize collapse-title gap-x-5"
+					>
+						<p class="accordion-icon">
+							<i class="text-3xl bi bi-plus text-secondary"></i>
+						</p>
 						Will I be charged for a replacement item?
 					</div>
 					<div class="collapse-content text-primary">
@@ -333,9 +355,14 @@
 					</div>
 				</div>
 
-				<div class="border-b rounded-none collapse collapse-plus">
+				<div class="border-b rounded-none collapse">
 					<input type="checkbox" name="my-accordion-3" />
-					<div class="text-xl font-medium capitalize collapse-title">
+					<div
+						class="flex items-center text-xl font-medium capitalize collapse-title gap-x-5"
+					>
+						<p class="accordion-icon">
+							<i class="text-3xl bi bi-plus text-secondary"></i>
+						</p>
 						How can I track my orders & payment?
 					</div>
 					<div class="collapse-content text-primary">
@@ -425,6 +452,25 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			const checkboxes = document.querySelectorAll('.collapse > input');
+
+			console.log(checkboxes);
+			checkboxes.forEach((cb) => {
+				cb.addEventListener('click', (e) => {
+					if (e.target.checked) {
+						e.target.parentElement.children[1].children[0].innerHTML = '';
+						e.target.parentElement.children[1].children[0].innerHTML =
+							'<i class="text-3xl bi bi-dash text-secondary"></i>';
+					} else {
+						e.target.parentElement.children[1].children[0].innerHTML = '';
+						e.target.parentElement.children[1].children[0].innerHTML =
+							'<i class="text-3xl bi bi-plus text-secondary"></i>';
+					}
+				});
+			});
+		</script>
 
 		<!-- footer section -->
 		<div
