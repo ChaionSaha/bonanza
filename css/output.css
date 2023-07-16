@@ -8637,16 +8637,6 @@ details.collapse summary::-webkit-details-marker{
        column-gap: 8rem;
 }
 
-.gap-x-28{
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
-}
-
-.gap-x-24{
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -9492,11 +9482,6 @@ details.collapse summary::-webkit-details-marker{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-bold{
@@ -10349,6 +10334,10 @@ details.collapse summary::-webkit-details-marker{
     row-gap: 0px;
   }
 
+  .lg\:gap-y-20{
+    row-gap: 5rem;
+  }
+
   .lg\:self-center{
     align-self: center;
   }
@@ -10430,17 +10419,18 @@ details.collapse summary::-webkit-details-marker{
     flex-direction: row;
   }
 
-  .xl\:gap-y-0{
-    row-gap: 0px;
-  }
-
   .xl\:gap-x-5{
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
   }
 
-  .xl\:text-center{
-    text-align: center;
+  .xl\:gap-y-0{
+    row-gap: 0px;
+  }
+
+  .xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .xl\:text-6xl{
@@ -10451,10 +10441,5 @@ details.collapse summary::-webkit-details-marker{
   .xl\:text-8xl{
     font-size: 6rem;
     line-height: 1;
-  }
-
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
